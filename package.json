@@ -1,0 +1,31 @@
+{
+  "name": "Preact-Starter",
+  "version": "1.0.0",
+  "description": "Starter files for future preact projects.",
+  "main": "index.js",
+  "repository": {},
+  "license": "MIT",
+  "author": {
+    "name": "Keith McKiernan",
+    "email": "<keithmckiernan01@gmail.com>"
+  },
+  "scripts": {
+    "build-prod": "NODE_ENV=production webpack -p",
+    "start": "webpack-dev-server"
+  },
+  "dependencies": {
+    "preact": "^7.2.0"
+  },
+  "devDependencies": {
+    "awesome-typescript-loader": "^3.0.4-rc.2",
+    "css-loader": "^0.26.1",
+    "node-sass": "^4.5.0",
+    "preact-svg-loader": "^0.1.0",
+    "sass-loader": "^6.0.0",
+    "style-loader": "^0.13.1",
+    "tsc": "^1.20150623.0",
+    "typescript": "^2.1.6",
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.3.0"
+  }
+}
